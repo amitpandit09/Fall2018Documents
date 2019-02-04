@@ -1,0 +1,37 @@
+ITIS 6200/8200 (Fall 2018)
+Principles of Information Security & Privacy
+Homework 2
+Deadline: 11:59pm on October 9, 2018. No late submission will be accepted.
+Submission method: upload your solutions to Canvas in a PDF file.
+Each student is expected to finish this homework independently. No collaboration is allowed.
+Furthermore, if you search the Internet, copy, and paste an answer, you will get zero and can be subject to
+the academic misconduct procedures and sanctions.
+1. Give an example of a situation in which a compromise of confidentiality leads to a compromise in
+integrity; and then give an example of a situation in which a compromise of integrity leads to a
+compromise in confidentiality.
+2. Classify each of the following as an example of a mandatory, discretionary, or originator controlled
+policy, or a combination thereof. Justify your answers.
+a. The file access control mechanisms of the LINUX operating system.
+b. A system in which no memorandum can be distributed without the author’s consent.
+c. A military facility in which only generals can enter a particular room.
+d. A university registrar’s office, in which a faculty member can see the grades of a particular student
+provided that the student has given written permission for the faculty member to see them.
+3. Given the security levels TOP SECRET, SECRET, CONFIDENTIAL, and UNCLASSIFIED (ordered
+from highest to lowest), and the categories A, B, and C, specify what types of access (read, write, both, or
+neither) is allowed in each of the following situations. Justify your answers by applying the definition of
+the dominate relationship. Assume that discretionary access controls allow anyone access unless
+otherwise specified.
+a. Paul, cleared for (TOP SECRET, {A, C}), wants to access a document classified (SECRET, {B, C}).
+b. Anna, cleared for (CONFIDENTIAL, {C}), wants to access a document classified
+(CONFIDENTIAL, {B}).
+c. Jesse, cleared for (SECRET, {C}), wants to access a document classified (CONFIDENTIAL, {C}).
+d. Sammi, cleared for (TOP SECRET, {A, C}), wants to access a document classified
+(CONFIDENTIAL, {A}).
+e. Robin, who has no clearances (and so works at the UNCLASSIFIED level), wants to access a
+document classified (CONFIDENTIAL, {B}).
+4. Suppose a system implementing Bell-LaPadula’s model used the same labels for security levels and
+categories as for integrity levels and categories under the Biba model, which the system implemented.
+Under what conditions could one subject read an object? Write to an object?
+5. A physician who is addicted to a pain-killing medicine can prescribe the medication for herself. Please
+show how RBAC in general, and Definition 7-11 on page 94 of the textbook specifically, can be used to
+govern the dispensing of prescription drugs to prevent a physician from prescribing medicine for herself.

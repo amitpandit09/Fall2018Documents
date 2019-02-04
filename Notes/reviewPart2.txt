@@ -1,0 +1,106 @@
+Cryptographic concepts:
+- encryption
+- decryption
+
+Symmetric Cryptosystem
+- how do encryption and decryption work?
+- Caesar Cipher
+
+Block ciphers:
+- How do block ciphers work?
+- example block ciphers
+- block cipher mode (ECB vs CBC): comparison of these two modes
+
+Public Key Cryptography
+- how do encryption and decryption work?
+
+RSA Cryptosystem
+- Mathematical background
+   - prime numbers
+   - Greatest Common Divisor
+   - Modular Arithmetic
+   - Modular inverse: x*y = 1 mod n
+   - Extended Euclid's Algorithm
+- Setup: n, p, q, e, phi(n), d
+- Keys: public key (n, e) and private key (d)
+- Encryption: Plaintext M in Zn, C = M^e mod n
+- Decryption: M = C^d mod n
+- expectation: given n, p, q, and e, know how to 
+    -- encrypt a given plaintext M, 
+    -- given d, decrypt a given ciphertext C
+    -- compute d from e, or vice versa
+
+
+Cryptographic Hash Functions
+- concept and definition
+- common example hash functions
+
+Session Keys
+- Definition
+- Benefits
+
+Forward search attack
+- definition
+- application to real world scenarios
+
+Needham-Schroeder Key Exchange Protocol
+- How to prove that Alice is talking to Bob?
+- How to prove that Bob is talking to Alice?
+
+Public-Key Key Exchange
+- The scheme: Alice sends { { ks } dA } eB to Bob
+- What are the assumptions for this scheme to work?
+- Man-in-the-Middle Attack against ths simple scheme { ks } eB
+
+
+PKI
+- motivation for certificates
+- CA
+- Validation of certificates
+- Key Revocation
+- common products: X.509 and PGP
+
+ 
+
+Digital signatures
+- Public Key Digital Signatures: m || { m } d_Alice
+- Signature validation
+
+ 
+
+Access Control List
+  - Linux ACL
+      - Unix / Linux 10-character notation
+      - Deny be default; path-based access control principle; DAC
+      - Extended ACL
+
+  - Windows permissions
+      - Explicit deny permission
+      - standard vs advanced permissions
+      - NOT path-based access control
+      - ACE precedence
+
+Capabilities
+- definitions and their difference
+- what is capability amplification and why is it useful?
+
+
+Authentication: the determination of identity or role that someone has with respect to the resources that the OS controls. 
+- something that the person has (e.g., Barcodes, magnetic stripe cards, a smart card, a SIM card, RFID tag, or a radio token with secret keys)
+- something that the person knows (e.g., password): brutal force attacks against password
+- something that the person is (e.g., fingerprint): candidates, advantage, disadvantage
+      -- Requirements for Biometric Identification
+
+ 
+
+Security principles:
+  - Economy of mechanism
+  - Fail-safe defaults ***
+  - Complete mediation
+  - Open design
+  - Separation of privilege
+  - Least privilege ***
+  - Least common mechanism
+  - Psychological acceptability ***
+
+ 

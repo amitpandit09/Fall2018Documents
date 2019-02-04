@@ -1,0 +1,85 @@
+CIAs of security:
+- Confidentiality: is the avoidance of the unauthorized disclosure of information. 
+-- tools: encryption, access control, authentication, authorization, physical security
+
+- Integrity: the property that information has not be altered in an unauthorized way, or unauthorized modification can be detected.
+-- tools: backups, checksums, data correcting codes
+
+- Availability: the property that information is accessible and modifiable in a timely fashion by those authorized to do so.
+-- tools: Physical protections, Computational redundancies
+
+
+Threats and attacks: can compare and contrast them
+Threat: a potential violation of security. The violation need not actually occur for there to be a threat.
+Attacks: actions that actually cause a violation
+
+Examples: know the definition of each one
+- Eavesdropping
+- Alteration
+- Denial-of-service
+- Masquerading
+- Repudiation
+- Correlation and traceback
+
+The difference between policy and mechanism
+- Example: protection of your term project report (files) on the school's server, which runs Linux
+
+
+Access Control Matrices: know how to fill in a ACM given natural language description
+
+Definition of security policy
+
+Various types of integrity: definition and examples
+- data integrity
+- origin integrity or authentication
+- assurance
+
+Various types of availability: definition and examples
+- traditional availability
+- Quality of service (QoS)
+
+Bell-LaPadula Model, Full Version
+- Security levels and categories
+- The dom relationship and the lattice
+- Simple Security Condition
+- *-Property 
+- Application of Bell-LaPadula Model
+
+Clark-Wilson Integrity Model
+- What is the purpose of an IVP?
+- What is the definition of integrity under Clark-Wilson?
+- What is a CDI? give an example
+- What is a TP? give an example
+- What does the allowed relation (user, TP, {CDI set}) mean? give an example
+- How does one enforces separation of duty with respect to certified and allowed relations under Clark-Wilson?
+
+Biba Model, Full Version
+- Integrity levels and categories
+- The dom relationship and the lattice
+- Simple Security Condition
+- *-Property 
+- Application of Biba Model
+
+Chinese Wall Model
+- conflict of interest (CoI) classes
+- CW-Simple Security Condition
+- CW-*-Property
+
+Example question: Bob and Tom work in the same trading house. Honda Dealer and Dodge Dealer is in one COI class.
+(1) Tom has read the CD of Dodge Dealer. Can he read the CD of Honda Dealer? 
+(2) If Bob has read the CD of Honda Dealer, both Bob and Tom can read the CD of Bank of America, can Bob write to the CD of Bank of America?
+
+
+RBAC
+
+- Definitions: role, active role of subject, authorized roles of subject, canexec
+
+- Rule of role assignment
+
+- Rule of role authorization
+
+- Containment of roles
+- Separation of duty, meauth
+- Role inheritance
+
+ 

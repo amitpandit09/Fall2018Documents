@@ -1,0 +1,4 @@
+If the access is granted, the operating
+system returns a capability called a file descriptor. The capability is tightly bound to
+the file object, so even if the file is deleted and a new file with the same name is created,
+the file descriptor still refers to the previous file.
